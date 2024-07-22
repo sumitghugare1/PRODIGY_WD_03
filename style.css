@@ -1,0 +1,66 @@
+* {
+    background-color:antiquewhite;
+    padding: 10px;
+    font-family: Chalkduster, 'Courier New', Courier, monospace;
+}
+
+table, th, td {
+    border: 1px solid;
+}
+
+#table-header {
+    background-color: darksalmon;
+    font-weight: bold;
+}
+
+#game-container {
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+}
+
+#cell-container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    margin: auto;
+}
+
+#game-status {
+    margin: auto;
+    text-align: center;
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+}
+
+#restart-btn, #clear-btn {
+    background-color:darksalmon;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#restart-btn:hover, #clear-btn:hover {
+    background-color:lightsalmon;
+}
+
+#scoreboard {
+    margin: auto;
+    padding: 5px;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 0 0 2px;
+    border: 1px solid;
+    font-size: calc(100px / 1.5);
+    cursor: pointer;
+    align-items: center;
+    justify-items: center;
+    background-color:darksalmon;
+}
